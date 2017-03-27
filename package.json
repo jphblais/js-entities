@@ -1,0 +1,22 @@
+{
+  "name": "js-entities",
+  "version": "1.0.0",
+  "description": "Some useful entities to help with data normalization",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --"
+  },
+  "author": "Jean-Philippe Blais",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "transliteration": "^1.5.3"
+  }
+}
